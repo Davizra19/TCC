@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shooling</title>
+    <!--Aqui esta o link do CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--aqui está o corpo do meu site-->
+  <body>
+
+    <!--Aqui inicia o NAV-BAR da pagina -->
+  <header>
+      <nav>
+        <a class="logo" href="index.html">Shooling</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar">
+        <a href="#" class="search-btn">
+          <img src="img/pesquisar.png" alt="Lupa" height="20" width="20">
+        </a>
+    </header>
+    <!--Aqui finaliza o NAV-BAR da pagina -->
+<br>
+
+
+
+
+    <!--Aqui inicia o slide da minha pagina-->
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
+            <input type="radio" name="slides" id="slide4">
+            <input type="radio" name="slides" id="slide5">
+
+
+            <div class="slide s1">
+                <img src="img/1.jpg" alt="paisagens">
+            </div>
+
+            <div class="slide">
+                <img src="img/2.jpg" alt="paisagens">
+            </div>
+
+            <div class="slide">
+                <img src="img/3.jpg" alt="paisagens">
+            </div>
+
+            <div class="slide">
+                <img src="img/4.jpg" alt="paisagens">
+            </div>
+
+            <div class="slide">
+                <img src="img/5.jpg" alt="paisagens">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="mobile-navbar.js"></script>
+  </body>
+</html>

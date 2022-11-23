@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+2. <html lang="pt-br"> 
+3. 
+4. <head> 
+5. <meta charset="UTF-8"> 
+6. <title>Forms em HTML</title> 
+7. </head> 
+8. 
+9. <body> 
+10. <header> 
+11. <h1>Exemplo de formulário no HTML</h1> 
+12. </header> 
+13. <article> 
+14. <form action="#"> 
+    <fieldset> 
+        17. <legend>Identificação:</legend> 
+        18. <label for="cNome">Nome:</label><br /> 
+        19. <input type="text" size=50 name="tNome" id="cNome" required="req
+        uired" /> 
+        20. <br /><br /> 
+        21. <p>Você mora:</p> 
+        22. <input type="radio" name="tipo" id="cid" value="C" /> 
+        23. <label for="cid">Cidade</label><br /> 
+        24. <input type="radio" name="tipo" id="inter" value="I" /> 
+        25. <label for="inter">Interior</label><br /> 
+        26. </fieldset> 
+        27. 
+        28. <br> 
+        29. 
+        30. <fieldset> 
+        31. <legend>Informações extras:</legend> 
+        32. <p>Qual meio de transporte você usa?</p> 
+        33. <input type="checkbox" id="transporte1" name="transporte1" value
+        ="Bike" /> 
+        34. <label for="transporte1"> Bicicleta</label><br /> 
+        35. <input type="checkbox" id="transporte2" name="transporte2" value
+        ="Car" /> 
+        36. <label for="transporte2"> Carro</label><br /> 
+        37. <input type="checkbox" id="transporte3" name="transporte3" value
+        ="Metro" /> 
+        38. <label for="transporte3"> Metrô</label><br /> 
+        39. <input type="checkbox" id="transporte4" name="transporte4" value
+        ="Bus" /> 
+        40. <label for="transporte4"> Ônibus</label> <br /><br /> 
+        41. <label for="time">Selecione seu time:</label> 
+        42. <select id="time" name="time"> 
+        43. <option value="cruzeiro">Cruzeiro</option> 
+        44. <option value="sao_paulo">São Paulo</option> 
+        45. <option value="corinthians">Corinthians</option> 
+        46. <option value="gremio">Grêmio</option> 
+        47. <option value="goiás">Goiás</option> 
+        48. <option value="santos">Santos</option> 
+        49. </select><br /><br /> 
+        50. <label for="cCid">Escolha a sua Cidade na lista:</label> 
+        51. <input list="cidade" name="tCid" id="cCid" placeholder="Sua Cida
+        de" /> 
+        52. <datalist id="cidade"> 
+        53. <option value="São Paulo"></option> 
+        54. <option value="Campinas"></option> 
+        <option value="Santos"></option> 
+        56. <option value="Santo André"></option> 
+        57. </datalist> 
+        58. </fieldset> 
+        59. 
+        60. <br> 
+        61. 
+        62. <fieldset> 
+        63. <legend>Exemplo range e output:</legend> 
+        64. 0 
+        65. <input type="range" id="valor_01" name="valor_01" /> 
+        66. 100 
+        67. </fieldset> 
+        <br> 
+70. 
+71. <fieldset> 
+72. <legend>Sua opinião:</legend> 
+73. <p>Sugestões, elogios e críticas:</p> 
+74. <textarea name="message" rows="10" cols="50" placeholder="Deixe
+aqui a sua mensagem!" 
+75. required></textarea> 
+76. </fieldset> 
+77. 
+78. <br> 
+79. 
+80. <input type="submit" value="Enviar" /> 
+81. </form> 
+82. </article> 
+83. <footer> 
+84. <small>Instituto da Oportunidade Social</small> 
+85. </footer> 
+86. </body> 
+87. 
+88. </html> 
