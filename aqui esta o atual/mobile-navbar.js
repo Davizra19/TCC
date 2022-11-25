@@ -50,12 +50,10 @@ class MobileNavbar {
   'use strict';
 
 const images = [
-    { 'id': '1', 'url':'./img/slide.jpeg' },
-    { 'id': '2', 'url':'./img/livros.jpg' },
+    { 'id': '1', 'url':'./img/slide2.jpeg' },
+    { 'id': '2', 'url':'./img/slide.jpeg' },
     { 'id': '3', 'url':'./img/livro2.jpg' },
-    { 'id': '4', 'url':'./img/tenjhotenge.jpg' },
-    { 'id': '5', 'url':'./img/yuyuhakusho.jpg' },
-    { 'id': '6', 'url':'./img/ippo.png' },
+    
 ]
 
 const containerItems = document.querySelector('#container-items');
