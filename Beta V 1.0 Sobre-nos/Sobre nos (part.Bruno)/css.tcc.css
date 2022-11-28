@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"poppins", sans-serif;
+    background-color: slategray;
+    
+}
+
+
+/*aqui esta o inicio da estilizaçao dos cards*/
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 80px;
+    box-shadow: 7px 7px 13px 0px rgb(212, 209, 209);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.2s ease-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card p {
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 50%;
+}
+.imagem {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+.blue {
+    border-left: 3px solid #4895ff;
+}
+.green {
+    border-left: 3px solid #3bb54a;
+}
+.red {
+    border-left: 3px solid #b3404a;
+}
+/*Aqui está o Final da estilização dos cards*/
+
+
+
+/*Aqui está o inicio da estilizaçao do footer*/
+footer{
+    position: flex;
+    bottom: 5px;
+    width: 100%;
+    background: white;
+   
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box .content:after{
+    position: flex;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background: #f12020;
+    top: -10px;
+}
+.box .content:before{
+    position: flex;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #110707;
+    top: -10px;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    width: 40px;
+    height: 40px;
+    background: #030101;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+}
+.left .content p{
+    text-align: justify;
+}
+.center .content .fas{
+    font-size: 23px;
+    background: #1a1a1a;
+    width: 45px;
+    height: 45px ;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.center .content .fas:hover{
+    background: #f12020;
+}
+.center .content .text{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+.center .content .msg{
+    margin-top: 10px;
+}
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 17px;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+.right form input{
+    height: 35px;
+}
+.right form input:focus,
+.right form textarea:focus{
+    outline-color: #3498db;
+}
+.right form .text{
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #656565;
+}
+.right form .btn{
+    margin-top: 10px;
+}
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    background: #f12020;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+.right form .btn button:hover{
+    background: #000;
+}
+.bottom .center{
+    padding: 5px;
+    font-size: 15px;
+    background: #151515;
+    text-align: center;
+}
+.bottom .center span{
+    color: #656565;
+}
+.bottom .center a{
+    color: #f12020;
+    text-decoration: none;
+}
+.bottom .center a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 800px){
+    footer{
+        position: inline;
+        bottom: 0px;
+    }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }
+}
+/*Aqui está o final da estilizaçao do footer*/
