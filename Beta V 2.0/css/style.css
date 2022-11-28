@@ -62,6 +62,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px  0;
+    
 }
 
 .logo a{
@@ -70,6 +71,12 @@ nav{
     color: white;
 }
 
+.logo img{
+    font-size: 15px;
+    width:  80px;
+    height: 10%;
+    border-radius: 20%;
+}
 
 .ul {
     display: flex;
@@ -177,7 +184,7 @@ main .container{
     margin: 20vh auto;
     border-radius: 10px;
     box-shadow: 0 20px 30px black;
-    border: 5px solid black;
+  
     
 }
 
@@ -260,7 +267,7 @@ main .container{
 }
 
 .casa .casa-img{
-    width:  50%;
+    width:  25%;
 }
 
 .casa .casa-img img{
